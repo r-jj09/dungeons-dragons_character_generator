@@ -1,16 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
     <title>D&D Character Generator</title>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js"
+        integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <h1>Dungeons and Dragons</h1>
     <h2>Character Generator</h2>
-    <span></span>
-    
+    <div class="container">
+        <button class="roll">Roll the Dice!</button>
+        <div class="content">
+            <span>Strenght</span>
+            <span class="str"></span>
+            <span>Dexterity</span>
+            <span class="dex"></span>
+            <span>Constitution</span>
+            <span class="cons"></span>
+            <span>Inteligence</span>
+            <span class="inte"></span>
+            <span>Wisdom</span>
+            <span class="wis"></span>
+            <span>Charisma</span>
+            <span class="charism"></span>
+        </div>
+    </div>
+    <script src="main.js"></script>
 </body>
+
 </html>
